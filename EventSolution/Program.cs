@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EventSolution
 {
@@ -37,7 +33,7 @@ namespace EventSolution
 
             string str;
             do
-            {                                
+            {
                 Console.WriteLine("Enter the amount you which to put in the bank:");
                 str = Console.ReadLine();
                 if (!str.Equals("exit"))
